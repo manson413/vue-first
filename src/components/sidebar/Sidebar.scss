@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  width: 196px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(43, 102, 176, 0.5);
+  menu {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+  a {
+    text-transform: uppercase;
+    color: #36454d;
+    padding: 0 5px;
+    font-weight: bold;
+    &:hover {
+      border-bottom: 2px solid #8bc34a;
+    }
+  }
+}
